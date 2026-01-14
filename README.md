@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# 🌿 AI-Powered Skincare Analysis System
 
-## Project info
+## 📌 Project Description
+The AI-Powered Skincare Analysis System is a machine learning–based application designed to analyze facial skin images and identify skin types and common skin conditions such as acne, dryness, oiliness, wrinkles, and pigmentation. Based on the analysis, the system provides personalized skincare recommendations to help users make informed skincare decisions.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🎯 Features
+- AI-based facial skin analysis
+- Skin type classification
+- Detection of common skin problems
+- Personalized skincare recommendations
+- User-friendly interface
+- Modular and scalable system design
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🧠 Technologies Used
+- Programming Language: Python  
+- Machine Learning: TensorFlow / PyTorch  
+- Image Processing: OpenCV  
+- Backend Framework: Flask / FastAPI  
+- Frontend: HTML, CSS, JavaScript  
+- Database: MongoDB / MySQL (Optional)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚙️ System Workflow
+1. User uploads a facial image  
+2. Image is preprocessed (resize, normalization, noise removal)  
+3. AI model analyzes skin features  
+4. Skin type and issues are detected  
+5. Personalized skincare recommendations are generated  
+6. Results are displayed to the user  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Project Structure
+AI-Skincare-Analysis/
+│── dataset/
+│── models/
+│── static/
+│── templates/
+│── app.py
+│── requirements.txt
+│── README.md
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Installation & Setup
+1. Clone the repository:
+git clone https://github.com/your-username/AI-Skincare-Analysis.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Navigate to the project directory:
+cd AI-Skincare-Analysis
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Install required dependencies:
+pip install -r requirements.txt
 
-# Step 3: Install the necessary dependencies.
-npm i
+4. Run the application:
+python app.py
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📸 Usage
+- Open the application in your browser  
+- Upload a clear facial image  
+- View detected skin type and skincare recommendations  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🔮 Future Enhancements
+- Real-time camera-based skin analysis  
+- Product recommendations based on region  
+- User progress tracking  
+- Mobile application integration  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📚 Use Cases
+- Personal skincare analysis  
+- Beauty and wellness platforms  
+- Dermatology support systems  
+- Skincare product recommendation engines  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Contributing
+Contributions are welcome.  
+Feel free to fork this repository and submit pull requests.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📜 License
+This project is licensed under the MIT License.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 👤 Author
+Saqlain Abbas  
+AI & Machine Learning Enthusiast
