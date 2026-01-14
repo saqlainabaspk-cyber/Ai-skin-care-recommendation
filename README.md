@@ -37,19 +37,6 @@ AI-Skincare-Analysis/
 │── requirements.txt
 │── README.md
 
-## 🚀 Installation & Setup
-1. Clone the repository:
-git clone https://github.com/your-username/AI-Skincare-Analysis.git
-
-2. Navigate to the project directory:
-cd AI-Skincare-Analysis
-
-3. Install required dependencies:
-pip install -r requirements.txt
-
-4. Run the application:
-python app.py
-
 ## 📸 Usage
 - Open the application in your browser  
 - Upload a clear facial image  
